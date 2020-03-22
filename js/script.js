@@ -15,10 +15,12 @@ for (var i = 0; i < 10; i++) {
     if (i == 6) {
         continue;
     };
+    // if (i == 6) continue;
     out += i + ' ';
-    if (i == 6) {
-        break;
-    };
+    // if (i == 6) {
+    //     break;
+    // };
+    // if (i == 6) break;
 };
 
 document.getElementById('out').innerHTML = out;
